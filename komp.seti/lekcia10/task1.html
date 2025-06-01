@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Регистрация</title>
+</head>
+<body>
+
+  <h1>Регистрация</h1>
+
+  <form>
+    <p>Имя:</p>
+    <input type="text" name="name">
+    <br><br>
+
+    <p>E-mail:</p>
+    <input type="email" name="email">
+    <br><br>
+
+    <p>Пароль:</p>
+    <input type="password" name="password">
+    <br><br>
+
+    <p>Повторите пароль:</p>
+    <input type="password" name="confirm_password">
+    <br><br>
+
+    <p>Пол:</p>
+    <input type="radio" name="gender" value="male"> Мужской
+    <input type="radio" name="gender" value="female"> Женский
+    <br><br>
+
+    <p>Увлечения:</p>
+    <select name="hobbies" multiple>
+      <option value="computers">Компьютеры</option>
+      <option value="sport">Спорт</option>
+      <option value="games">Игры</option>
+      <option value="animals">Животные</option>
+      <option value="cars">Автомобили</option>
+      <option value="music">Музыка</option>
+    </select>
+    <br><br>
+
+    <p>Ваши пожелания:</p>
+    <textarea name="comments" rows="3" cols="30"></textarea>
+    <br><br>
+
+    <input type="submit" value="Отправить">
+    <input type="reset" value="Очистить">
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+body { font-family: sans-serif; }
+.capitalize { text-transform: capitalize; }
+.lowercase { text-transform: lowercase; }
+.uppercase { text-transform: uppercase; }
+body { padding: 20px; border: 1px solid #ccc; width: 300px; }

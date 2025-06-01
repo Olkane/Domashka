@@ -1,0 +1,5 @@
+.underlined { text-decoration: underline; }
+.overline { text-decoration: overline; }
+.line-through { text-decoration: line-through;}
+.underlined-and-linethrough { text-decoration: underline line-through; }
+.no-underline { text-decoration: none; }
