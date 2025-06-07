@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Примеры border-radius</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: white;
+    }
+    .box {
+      background-color: #00ced1;
+      color: black;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border: 1px solid #000;
+      width: 600px;
+      box-sizing: border-box;
+    }
+    .box1 {
+      border-radius: 50px 0 0 50px;
+    }
+    .box2 {
+      border-radius: 40px 10px;
+    }
+    .box3 {
+      border-radius: 13em / 3em;
+    }
+    .box4 {
+      border-radius: 13em 0.5em / 1em 0.5em;
+    }
+    .box5 {
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box box1">border-radius: 50px 0 0 50px;</div>
+  <div class="box box2">border-radius: 40px 10px;</div>
+  <div class="box box3">border-radius: 13em / 3em;</div>
+  <div class="box box4">border-radius: 13em 0.5em / 1em 0.5em;</div>
+  <div class="box box5">border-radius: 8px;</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Цветные рамки</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .block { background-color: white; color: black; padding: 10px; margin-bottom: 20px; text-align: center; font-size: 16px; font-family: serif; }
+    .border-outset { border-style: outset; border-width: 20px; border-color: blue; }
+    .border-inset { border-style: inset; border-width: 20px; border-color: red blue; }
+    .border-groove { border-style: groove; border-width: 20px; border-color: red blue green; }
+    .border-ridge { border-style: ridge; border-width: 20px; border-color: pink red green blue; }
+    .note { font-size: 12px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div class="block border-outset">
+    One-colored border! Стиль границ - outset
+  </div>
+
+  <div class="block border-inset">
+    Two-colored border! Стиль границ - inset
+  </div>
+
+  <div class="block border-groove">
+    Three-colored border! Стиль границ - groove
+  </div>
+
+  <div class="block border-ridge">
+    Four-colored border! Стиль границ - ridge
+  </div>
+
+  <p class="note">
+    <b>ПРИМЕЧАНИЕ:</b> Свойство "border-color" не работает отдельно. Вначале укажите стиль границы border-style.
+  </p>
+</body>
+</html>

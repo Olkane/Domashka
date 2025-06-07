@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Внутренний отступ сверху</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .box {
+      border: 2px solid red;
+      margin-bottom: 10px;
+      height: 200px;
+      box-sizing: border-box;
+    }
+    .padding-0 {
+      padding-top: 0;
+    }
+    .padding-2cm {
+      padding-top: 2cm;
+    }
+    .padding-50percent {
+      padding-top: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="box padding-0">
+    У данного текста внутренний отступ сверху нет. У данного текста внутренний отступ сверху нет. У данного текста внутренний отступ сверху нет.
+  </div>
+
+  <div class="box padding-2cm">
+    У данного текста внутренний отступ сверху 2 см. У данного текста внутренний отступ сверху 2 см. У данного текста внутренний отступ сверху 2 см.
+  </div>
+
+  <div class="box padding-50percent">
+    У данного текста внутренний отступ сверху 50%. У данного текста внутренний отступ сверху 50%. У данного текста внутренний отступ сверху 50%.
+  </div>
+</body>
+</html>

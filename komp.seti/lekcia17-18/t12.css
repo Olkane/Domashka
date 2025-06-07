@@ -1,0 +1,30 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    color: #669;
+    font-size: 16px;
+  }
+  thead th {
+    background-color: #2a58ea;
+    color: #fff;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 15px;
+    text-align: left;
+  }
+  tbody td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #0be052;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #e8edff;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #b9c6f7;
+  }
+  tbody tr:hover td {
+    color: #ea2a36;
+  }

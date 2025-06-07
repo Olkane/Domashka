@@ -1,0 +1,27 @@
+
+        table {
+            border: 3px solid black;
+            width: 300px;
+        }
+        th, td {
+            background-color: #b7a600;
+            font-weight: bold;
+            text-align: center;
+            padding: 8px 15px;
+        }
+        .table1 {
+            border-collapse: collapse;
+        }
+        .table1 th, .table1 td {
+            border: 2px solid green;
+        }
+        .table2 {
+            border-collapse: separate;
+            border-spacing: 6px;
+            background-color: #b7a600;
+            padding: 6px;
+        }
+        .table2 th, .table2 td {
+            border: 2px solid green;
+            background-color: #b7a600;
+        }

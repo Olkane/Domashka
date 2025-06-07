@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Таблица с разными стилями рамок</title>
+  <style>
+    table {
+      border-collapse: separate;
+      border-spacing: 15px 15px;
+      width: 80%;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      text-align: center;
+    }
+    td {
+      padding: 20px;
+      width: 100%;
+    }
+    .border1 {
+      border-style: dotted solid dashed double;
+    }
+    .border2 {
+      border-style: dotted solid dashed;
+    }
+    .border3 {
+      border-style: dotted solid;
+    }
+    .border4 {
+      border: 3px dotted;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td class="border1">This is some text in a paragraph.</td>
+    </tr>
+    <tr>
+      <td class="border2">This is some text in a paragraph.</td>
+    </tr>
+    <tr>
+      <td class="border3">This is some text in a paragraph.</td>
+    </tr>
+    <tr>
+      <td class="border4">This is some text in a paragraph.</td>
+    </tr>
+  </table>
+</body>
+</html>
+

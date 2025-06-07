@@ -1,0 +1,18 @@
+table {
+            border: 1px solid black;
+            border-spacing: 0;
+            margin-bottom: 30px;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px 10px;
+            text-align: left;
+        }
+        .collapse {
+            border-collapse: collapse;
+        }
+        .separate {
+            border-collapse: separate;
+            border-spacing: 5px; /* Добавим отступы для наглядности */
+        }

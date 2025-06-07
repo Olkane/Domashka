@@ -1,0 +1,19 @@
+
+  body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    color: #669;
+    margin: 20px 0;
+  }
+  th {
+    color: #003399;
+    border-bottom: 1px solid #6678b1;
+    padding: 8px 12px;
+    text-align: left;
+ }
+  tr:hover td {
+    color: #6699ff;
+  }

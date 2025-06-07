@@ -1,0 +1,22 @@
+
+  table {
+    border-collapse: collapse;
+    border-bottom: 5px solid #800000;
+    width: 50%;
+  }
+  th, td {
+    border: 0px solid black;
+    padding: 8px;
+    
+    background-color: #fffacd;
+    text-align: center;
+  }
+  td {
+    background-color: #fffacd;
+  }
+  .first-column {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
